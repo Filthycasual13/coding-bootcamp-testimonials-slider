@@ -33,6 +33,17 @@ body {
     align-items: center;
     height: 400px;
     width: 850px;
+    background-image: url(images/pattern-quotes.svg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 10% 20%;
+}
+
+.container > img {
+    position: relative;
+    right: 40px;
+    width: 500px;
+    z-index: -2;
 }
 
 .quote {
@@ -52,11 +63,12 @@ body {
     color: var(--Grayish-Blue);
 }
 
+
 .image > img {
     position: relative;
     left: 100%;
     width: 400px;
     height: 400px;
     border-radius: 2px;
-    z-index: -2;
+    z-index: -1;
 }
