@@ -72,3 +72,39 @@ body {
     border-radius: 2px;
     z-index: -1;
 }
+
+.arrows {
+    position: absolute;
+    top: 370px;
+    left: 440px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 5px 40px #969696;
+    border-radius: 25px;
+}
+
+.arrowL, .arrowR {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2px;
+    height: 40px;
+    width: 45px;
+    background-color: #fff;
+}
+
+.arrowL:hover, .arrowR:hover {
+    background-color: #d6d6d6;
+}
+
+.arrowL {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.arrowR {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
