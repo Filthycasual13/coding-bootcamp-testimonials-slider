@@ -53,18 +53,26 @@ body {
     width: 480px;
 }
 
-.quote > strong {
-    font-size: 0.8em;
+.name {
+    position: absolute;
+    top: 300px;
+    font-weight: 300;
+    font-size: 1em;
+    padding-right: 10px;
     color: var(--Dark-Blue);
 }
 
-.quote > span {
-    font-size: 0.8em;
+.profession {
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    font-weight: 300;
+    font-size: 1em;
     color: var(--Grayish-Blue);
 }
 
 
-.image > img {
+.image > img{
     position: relative;
     left: 100%;
     width: 400px;
@@ -75,8 +83,8 @@ body {
 
 .arrows {
     position: absolute;
-    top: 370px;
-    left: 440px;
+    top: 440px;
+    left: 740px;
     display: flex;
     flex-direction: row;
     box-shadow: 0px 5px 40px #969696;
